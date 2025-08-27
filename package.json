@@ -1,0 +1,22 @@
+{
+  "name": "todo-app-jsonplaceholder",
+  "version": "1.0.0",
+  "description": "A To-Do application with JSONPlaceholder API integration",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server . --port 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo",
+    "task-management",
+    "jsonplaceholder",
+    "api",
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

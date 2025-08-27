@@ -1,0 +1,10 @@
+name: My First Test
+
+on: [push]   # run every time code is pushed
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4   # get the code
+    - run: echo "Hello, tests are running!"  
